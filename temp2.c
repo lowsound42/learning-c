@@ -11,10 +11,11 @@ main()
   increment = 20;
 
   fahr = lower;
+  printf("Converting F to C:\n\n");
   while (fahr <= upper)
   {
-    celcius = ( 5.0 / 9.0 ) * ( fahr - 32 );
-    printf("%3.1f\t%6.1f\n", fahr, celcius);
+    celcius = ( 5.0 / 9.0 ) * ( fahr - 32.0);
+    printf("%3.0f\t%6.1f\n", fahr, celcius);
     fahr = fahr + increment;
   }
 }
